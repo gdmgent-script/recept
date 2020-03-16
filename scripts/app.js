@@ -1,6 +1,20 @@
-// 1 create object --> const recipe = {...}
+let recipe = {
 
-// 2 add properties (naam, porties, ingrediënten)
+    name: 'Mousse van doperwtjes met serranoham',
+    porties: 4,
+    ingredients: [
+        '250gr doperwtjes',
+        '2el luchtige kaas',
+        'enkele blaadjes munt',
+        '3 sneetjes serannoham',
+        'peper en zout'
+    ]
+}
 
-// 3 log every property
-// loop through ingredients to loop every individual ingredient
+console.log(recipe.name);
+console.log(`Porties: ${recipe.porties}`);
+console.log('Ingrediënten: ');
+
+for(ingredient of recipe.ingredients) {
+    console.log(ingredient);
+}
