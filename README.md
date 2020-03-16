@@ -8,7 +8,24 @@
 - Solution ***solution***
 
 
-Example - normal
+Recept
 -------
-Vraag met een pop-up venster de naam van de gebruiker op. Geef de gebruiker zijn naam weer op het scherm in een H2 ``` Hello **naam gebruiker ** ! ```.
-Maak een uitbreiding waarmee het aantal karakters logt in de console van de ingegeven naam. 
+
+Maak een object aan dat informatie bevat over jouw favoriete receptje.
+
+Haal je "mosterd" bij de website van <https://njam.tv>
+
+Het object moet de volgende eigenschappen bevatten:
+`naam` (string), `porties` (number), `ingrediënten` (array van strings)
+
+Log vervolgens elke property van het object (door verschillende console.log(...), of via een loop).
+
+In het consolevenster moet het er ongeveer zo uitzien:
+
+    Soep
+    Porties: 4
+    Ingrediënten:
+    pompoen
+    wortel
+    water
+    bouillon
